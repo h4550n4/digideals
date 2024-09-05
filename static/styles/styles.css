@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9F7F7;
+    color: #112D4E;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3F72AF;
+    padding: 15px;
+    text-align: center;
+    color: #F9F7F7;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #F9F7F7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #DBE2EF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1, .container h2 {
+    color: #112D4E;
+}
+
+.container p {
+    color: #3F72AF;
+}
+
+.container img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3F72AF;
+    color: #F9F7F7;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #112D4E;
+}
+
+footer {
+    background-color: #112D4E;
+    color: #F9F7F7;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-card h2 {
+    color: #112D4E;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    color: #3F72AF;
+    font-size: 1.2em;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.category-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.category-card a {
+    text-decoration: none;
+    color: #112D4E;
+}
+
+.category-card h2 {
+    font-size: 1.5em;
+    color: #112D4E;
+    margin-bottom: 10px;
+}
+
+.category-card p {
+    color: #3F72AF;
+    font-size: 1.1em;
+}
